@@ -1,0 +1,142 @@
+title: &title Гид по стилю — процесс и особенности создания
+version: &version 0.1
+
+chapters:
+    - presentation_slides.md 
+    - references.md
+    - rules_structure.md
+    - glossaries.md
+    - template.md
+
+preprocessors:
+    - flags:
+        flags:
+            - build
+    - customids:
+        targets:
+            - mkdocs
+            - site
+            - ghp
+
+backend_config:
+    mkdocs:
+      mkdocs_path: mkdocs
+      slug: styleguide
+      use_title: true
+      use_chapters: true
+      use_headings: true
+      default_subsection_title: Expand
+      mkdocs.yml:
+          theme:
+              name: material
+              custom_dir: !path material
+              palette:
+
+                  # Настройки светлой темы 
+                  - media: "(prefers-color-scheme: light)"
+                    scheme: default
+                    primary: indigo
+                    toggle:
+                      icon: material/weather-night
+                      name: Переключить на тёмную тему
+
+                  # Настройки темной темы
+                  - media: "(prefers-color-scheme: dark)"    
+                    scheme: slate
+                    primary: indigo
+                    toggle:
+                      icon: material/weather-sunny
+                      name: Переключить на светлую тему
+              language: ru
+              features:
+                - content.code.annotate      
+                - search.suggest
+                - search.highlight
+                - navigation.instant
+                - navigation.tracking
+                - navigation.indexes
+                - navigation.top
+                - toc.follow
+              icon:
+                repo: tanuki
+          plugins:
+            - search:
+                lang:
+                  - en
+                  - ru
+          extra:
+            extra_css:
+              - stylesheets/extra.css
+
+
+          markdown_extensions:
+              - pymdownx.highlight:               # Блоки кода
+                  anchor_linenums: true
+                  use_pygments: true
+                  line_spans: __span
+                  pygments_lang_class: true
+
+              - pymdownx.superfences:              # Диаграммы
+                  custom_fences:
+                    - name: mermaid
+                      class: mermaid
+                      format: !!python/name:pymdownx.superfences.fence_code_format
+
+              - pymdownx.emoji:                    # Эмодзи
+                  emoji_index: !!python/name:materialx.emoji.twemoji
+                  emoji_generator: !!python/name:materialx.emoji.to_svg
+
+              - toc:                               # Содержание раздела
+                  permalink: True
+                  slugify: !!python/name:pymdownx.slugs.uslugify
+
+              - pymdownx.tabbed:             
+                  alternate_style: true            # Табы
+
+              - pymdownx.tasklist:
+                  custom_checkbox: true            # Чек-листы
+
+              - admonition                        # Плашки
+              - pymdownx.details
+              - pymdownx.superfences
+              - attr_list                         # Кнопки
+              - pymdownx.inlinehilite
+              - pymdownx.snippets
+              - tables                             # Таблицы
+              - footnotes
+              - pymdownx.critic                    # Форматирование
+              - pymdownx.caret
+              - pymdownx.keys
+              - pymdownx.mark
+              - pymdownx.tilde
+              - md_in_html
+              - def_list                           # Списки
+              - abbr                               # Тултипы
+              - attr_list
+              - pymdownx.snippets
+              - meta                               # Метаинформация (теги)
+              - sane_lists                         # Умные списки
+              - smarty                             # Конвертирует некоторые ASCII символы в HTML
+    pandoc:
+        template: ./templates/pandoc_pdf.tex
+        vars:
+            landscape: true
+            title: *title
+            version: *version
+            logo: false
+            year: 2023
+            date: true
+            russian: true
+            english: false
+            title_page: true
+            toc: true
+            tof: false
+        params:
+          pdf_engine: xelatex
+          number_sections: true
+        markdown_extensions:
+          - simple_tables
+          - fenced_code_blocks
+          - strikeout
+          - multiline_tables
+          - grid_tables
