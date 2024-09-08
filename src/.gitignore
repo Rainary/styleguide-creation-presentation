@@ -1,0 +1,12 @@
+.*cache
+*.pre
+*.pdf
+*.docx
+*.mkdocs
+*.mkdocs.src
+*.hugo
+*.hugo.src
+*.log
+.DS_Store
+.idea
+.vscode
