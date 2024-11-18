@@ -1,16 +1,27 @@
 version: '3'
 
 services:
-  foliant:
-    build:
-      context: ./
-      dockerfile: ./Dockerfile
-    volumes:
-      - ./:/usr/src/app/
-  bash:
-    build:
-      context: ./
-      dockerfile: ./Dockerfile
-    volumes:
-      - ./:/usr/src/app/
-    entrypoint: [ "/bin/bash", "-l", "-c" ]
+    pre:
+        build:
+            context: ./
+            dockerfile: Dockerfile-site
+        volumes:
+            - ./:/usr/src/app/
+        working_dir: /usr/src/app/
+        command: make pre -dk
+    site:
+        build:
+            context: ./
+            dockerfile: Dockerfile-site
+        volumes:
+            - ./:/usr/src/app/
+        working_dir: /usr/src/app/
+        command: make site
+    pdf:
+        build:
+            context: ./
+            dockerfile: Dockerfile-pdf
+        volumes:
+            - ./:/usr/src/app/
+        working_dir: /usr/src/app/
+        command: make pdf
