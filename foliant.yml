@@ -2,10 +2,9 @@ title: &title Гид по стилю — процесс и особенност�
 version: &version 0.1
 
 chapters:
-    - presentation_slides.md 
+    - overview.md
+    - slides.md 
     - references.md
-    - rules_structure.md
-    - glossaries.md
     - template.md
 
 preprocessors:
