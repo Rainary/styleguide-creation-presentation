@@ -1,4 +1,4 @@
-# Внешние источники (референсы)
+# Референсы
 
 **Стандарты:**
 
@@ -10,42 +10,42 @@
 
 **Стайлгайды:**
 
-- [Kontur,](https://guides.kontur.ru/principles/text/styleguide/#Printsipi)
-- [Tarantool,](https://www.tarantool.io/en/doc/latest/contributing/docs/)
-- [New Relic,](https://docs.newrelic.com/docs/style-guide/writing-strategies/introduction-style-guide/)
-- [Google developer,](https://developers.google.com/style)
-- [Mailchimp,](https://styleguide.mailchimp.com/writing-principles/)
-- [Microsoft learn,](https://learn.microsoft.com/en-us/style-guide/welcome/)
-- [Rad Hat,](https://stylepedia.net/style/5.1/#part-Writing_Style_Guide)
+- [Kontur;](https://guides.kontur.ru/principles/text/styleguide/#Printsipi)
+- [Tarantool;](https://www.tarantool.io/en/doc/latest/contributing/docs/)
+- [New Relic;](https://docs.newrelic.com/docs/style-guide/writing-strategies/introduction-style-guide/)
+- [Google developer;](https://developers.google.com/style)
+- [Mailchimp;](https://styleguide.mailchimp.com/writing-principles/)
+- [Microsoft learn;](https://learn.microsoft.com/en-us/style-guide/welcome/)
+- [Rad Hat;](https://stylepedia.net/style/5.1/#part-Writing_Style_Guide)
 - [Veeam.](https://helpcenter.veeam.com/docs/styleguide/tw/intro.html)
 
 **Редполитики:**
 
-- [rdpk.ru](http://rdpk.ru/) — cборник редполитик,
-- [редполитика модульбанка,](https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.l0pcgh1mq797)
-- [правила работы с текстом Гладлакс,](https://docs.google.com/document/d/1Ie_FZb02rH5c5OJaBJD7V5TrCnea6iMojwTVBzJx3iA/edit#heading=h.k5foqw9y7ugg)
-- [редполитика госуслуг,](https://www.figma.com/proto/EkKo5aCvpx4JzzzXv9cjl7/Editorial-policy?page-id=0%3A1&hide-ui=1&node-id=1-70&viewport=327%2C48%2C0.2&scaling=min-zoom&starting-point-node-id=31%3A911)
-- [редполитика QIWI,](https://docs.google.com/document/d/1LRiQuzy4J7lOdeUz3XadQDE1AF9Ngf6Fsu29qkXln80/edit#heading=h.l4p0o4ozb56c)
+- [rdpk.ru](http://rdpk.ru/) — cборник редполитик;
+- [редполитика модульбанка;](https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.l0pcgh1mq797)
+- [правила работы с текстом Гладлакс;](https://docs.google.com/document/d/1Ie_FZb02rH5c5OJaBJD7V5TrCnea6iMojwTVBzJx3iA/edit#heading=h.k5foqw9y7ugg)
+- [редполитика госуслуг;](https://www.figma.com/proto/EkKo5aCvpx4JzzzXv9cjl7/Editorial-policy?page-id=0%3A1&hide-ui=1&node-id=1-70&viewport=327%2C48%2C0.2&scaling=min-zoom&starting-point-node-id=31%3A911)
+- [редполитика QIWI;](https://docs.google.com/document/d/1LRiQuzy4J7lOdeUz3XadQDE1AF9Ngf6Fsu29qkXln80/edit#heading=h.l4p0o4ozb56c)
 - личная редполитика.
 
 **Справочники:**
 
-- [правила русского языка](https://therules.ru/) — проект Ильи Бирмана,
-- [правила русской орфографии и пунктуации под редакцией Лопатина,](http://orthographia.ru/orfografia.php?sid=1#pp1)
-- [справочник издателя и автора Мильчина и Чельцовой,](http://pm.samgtu.ru/sites/pm.samgtu.ru/files/materials/it/milchin.pdf)
-- [справочник главреда,](https://soviet.glvrd.ru/)
+- [правила русского языка](https://therules.ru/) — проект Ильи Бирмана;
+- [правила русской орфографии и пунктуации под редакцией Лопатина;](http://orthographia.ru/orfografia.php?sid=1#pp1)
+- [справочник издателя и автора Мильчина и Чельцовой;](https://disk.yandex.ru/i/KQqtoXKU0XLqpA)
+- [справочник главреда;](https://soviet.glvrd.ru/)
 - [советы Ильяхова в Бюро Горбунова.](https://bureau.ru/soviet/ilyahov/)
 
 **Инструкции:**
 
-- [Material for MkDocs,](https://squidfunk.github.io/mkdocs-material/getting-started/)
-- [Diplodoc yandex flavored markdown,](https://diplodoc.com/docs/ru/index-yfm)
+- [Material for MkDocs;](https://squidfunk.github.io/mkdocs-material/getting-started/)
+- [Diplodoc yandex flavored markdown;](https://diplodoc.com/docs/ru/index-yfm)
 - [документация языка Rust.](https://doc.rust-lang.org/book/)
 
 **Глоссарии:**
 
-- [Kontur,](https://guides.kontur.ru/principles/text/glossary/)
-- [Istio,](https://istio.io/latest/docs/reference/glossary/)
+- [Kontur;](https://guides.kontur.ru/principles/text/glossary/)
+- [Istio;](https://istio.io/latest/docs/reference/glossary/)
 - [Kubernetes.](https://kubernetes.io/docs/reference/glossary/?) 
 
 
