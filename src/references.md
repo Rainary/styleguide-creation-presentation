@@ -25,8 +25,7 @@
 - [редполитика модульбанка;](https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.l0pcgh1mq797)
 - [правила работы с текстом Гладлакс;](https://docs.google.com/document/d/1Ie_FZb02rH5c5OJaBJD7V5TrCnea6iMojwTVBzJx3iA/edit#heading=h.k5foqw9y7ugg)
 - [редполитика госуслуг;](https://www.figma.com/proto/EkKo5aCvpx4JzzzXv9cjl7/Editorial-policy?page-id=0%3A1&hide-ui=1&node-id=1-70&viewport=327%2C48%2C0.2&scaling=min-zoom&starting-point-node-id=31%3A911)
-- [редполитика QIWI;](https://docs.google.com/document/d/1LRiQuzy4J7lOdeUz3XadQDE1AF9Ngf6Fsu29qkXln80/edit#heading=h.l4p0o4ozb56c)
-- личная редполитика.
+- [редполитика QIWI.](https://docs.google.com/document/d/1LRiQuzy4J7lOdeUz3XadQDE1AF9Ngf6Fsu29qkXln80/edit#heading=h.l4p0o4ozb56c)
 
 **Справочники:**
 
