@@ -5,7 +5,12 @@ chapters:
     - overview.md
     - slides.md 
     - references.md
-    - template.md
+    - Дополнительные материалы:
+        - advantages.md
+        - processes.md
+        - helping.md
+        - template.md
+        - updating.md
 
 preprocessors:
     - flags:
