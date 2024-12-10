@@ -10,7 +10,6 @@ chapters:
         - processes.md
         - helping.md
         - template.md
-        - updating.md
 
 preprocessors:
     - flags:
